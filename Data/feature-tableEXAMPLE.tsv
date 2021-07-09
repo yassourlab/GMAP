@@ -1,0 +1,10 @@
+# Constructed from biom file
+#OTU ID	sub.110.0.initial	sub.110.1.two.week	sub.110.2.one.month	sub.110.3.twomonth	sub.110.4.fourmonth	sub.110.5.sixmonth	sub.110.6.ninemonth	sub.111.0.initial	sub.111.1.two.week
+Unassigned;__;__;__;__;__	0.0	3.1677648251393816e-05	0.00011086337936216603	6.131333156205932e-05	2.680354342844124e-05	2.7585445918733275e-05	1.81861167184971e-05	8.851907586084801e-05	0.0
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+k__Bacteria;__;__;__;__;__	0.00021805927247497275	0.0008077800304105423	0.00149049654475801	0.0006540088699952993	0.00021442834742752993	0.0005517089183746655	1.81861167184971e-05	0.00040718774895990087	0.00013067624959163673
+k__Bacteria;p__;c__;o__;f__;g__	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+k__Bacteria;p__AD3;c__;o__;f__;g__	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+k__Bacteria;p__Acidobacteria;c__Acidobacteriia;o__Acidobacteriales;f__Acidobacteriaceae;g__Terriglobus	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+k__Bacteria;p__Acidobacteria;c__Solibacteres;o__Solibacterales;f__;g__	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0
+k__Bacteria;p__Actinobacteria;c__Acidimicrobiia;o__Acidimicrobiales;f__AKIW874;g__	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0

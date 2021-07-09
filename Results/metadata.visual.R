@@ -1,0 +1,6 @@
+setwd("/Volumes/morani/lab/Projects/GMAP/Docs/GMAP_Paper/Results/TSVs/")
+install.packages("tidyverse")
+library(tidyverse)
+tab <- read.table("metadata.tsv",as.is=T, header=T)
+write.table(tab %>% select(-other_resolution),file="../metadata.MY.tsv",quote = F,  sep="\t")
+tail(tab,20)

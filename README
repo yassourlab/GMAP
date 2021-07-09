@@ -1,0 +1,75 @@
+#################################################
+#						#
+#						#
+#       					#
+#                  GMAP              		#
+#						#
+#						#
+#						#
+#################################################
+
+
+
+# Guide file for GMAP paper
+
+All code is availible at Scripts.
+All raw data availibe at Data
+All Results, includind tsv and csv files availible at 'Results'
+All Figues availible at Figures
+
+
+Scripts wrote by: Ehud Dahan
+For any question, clarification or cunsultion 
+
+
+Please dont hasitate to contact me at mail
+ehud.dahan@mail.huji.ac.il
+
+
+
+
+
+
+
+#################################################
+#						#
+#		Scripts description		#
+#						#
+# tree - each file creates based on previus work#
+# We mark it as a tree and branches. for example#
+# file '1.1' depend on valid run of file '1'    #
+#################################################
+
+tree	file	description
+0	file_dependencies.R	Enable run all files one by one
+1	FeatureTable_not_filtered.R		Create copy of QIIME2 results
+1	metadata_not_filtered.R		Create copy of metadata
+1.1	FinalSetOfSamples.R		Create list of sample that pass our criteria	  
+1.1.1     metadata.R	Create metadata file
+1.1.2     FeatureTable.R	Create Table of features 
+1.1.1.1       OneSamplePerKidPerTimePoint.R	Choose set with only one sample per kid in each time point 
+1.1.1.1.1.1             DiversityOutput.R	Calculate diversity matrix between all samples
+1.1.1.1.1.1.1                 RichnessOverall.R		Calculate Richness overall samples
+1.1.1.1.1.1.1.1                 CompositionPlotOverall_MY_line.R	Plot the composition
+1.1.1.1             Figure1Numbers.R	Calculate numbers for Figure 1A
+1.1.1.2		venn.R		Plot a venn diagram of of all samples crossed by filter criteria
+1.1.1.3             SampleMapSubsets.R		Figure 1 sample map
+1.1.1.4       SubsetsLists.R	Create all subsets list of samples
+1.1.1.4.1         MaAsLin2.R	Run maaslin on each subset and each chosen model
+1.1.1.4.1.1           SuppTable1.R	Supplementary table (all maaslin output)
+1.1.1.4.1.1.1             AppRdata.R 
+1.1.1.4.1.1.1.1               AppFunc.R 
+1.1.1.4.1.1.1.1.1                 AppDeploy.R 
+1.1.1.4.1.1.2             BoxPlotVagBacteroides.R	Plot
+1.1.1.4.1.1.3             BoxPlotDietBifido.R	Plot
+1.1.1.4.1.1.4             BoxPlotProLacto.R	Plot
+1.1.1.4.1.1.5             FlagPostCases0.01.R	Plot
+1.1.1.4.1.1.6             FlagPostSymp0.01.R	Plot
+1.1.1.4.1.1.7             FlagPostCases0.025.R	Plot
+1.1.1.4.1.1.8             FlagPostSymp0.025.R	Plot
+1.1.1.4.1.1.9             FlagPostCases0.05.R	Plot
+1.1.1.4.1.1.10             FlagPostSymp0.05.R	Plot
+1.1.1.4.1.1.11             BoxPlotSympLactoEnteroPeptoClostrid.0-2.all.R	Plot
+1.1.1.4.1.1.12             BoxPlotSymp.Entero.Clos.Strep.Lacto.R	Plot
+
+

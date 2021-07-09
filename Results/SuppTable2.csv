@@ -1,0 +1,12 @@
+,Total,Case,Control
+samples,960,538,422
+n,160,81,79
+num_samples_per_kid(median),5,6,5
+female,70,38,32
+vag,104,55,49
+initBF,86,44,42
+antibiotics_during_delivery,86,42,44
+female(%),44,47,41
+vag(%),65,68,62
+initBF(%),54,54,53
+antibiotics_during_delivery(%),54,52,56

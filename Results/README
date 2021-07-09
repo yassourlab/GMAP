@@ -1,0 +1,27 @@
+################################################################################
+############################## Results #########################################
+################################################################################
+
+
+############################## Description #####################################
+# This folder deginated to contaied results data (Rdata, csv, tsv etc. files)
+# After proccecing it by us.
+
+
+
+############################## Files ###########################################
+
+# @MaAsLin2_output_results.Rdata
+# This file include @mat data frame that include output results from MaAsLin2.
+# This is actually asumary table that aggragate all tables from each MaAsLin2
+# run we made.
+# The @input files was 'all_results.tsv' from each MaAsLin2 in folder
+# "/GMAP/Analysis/MaAsLin2/new_MaAsLin2_models_V14"
+
+
+
+# @SuppTable1.csv
+# This table is very similar to the mat table from the Rdata above but all
+# unclear variables was changed to more human readable variables.
+# All explanations about variables included in google sheet at:
+# https://docs.google.com/spreadsheets/d/1R07bI6bbo_tO40i70JeFo-8Hfadn-7IoLt4GyNL33_g/edit?usp=sharing
